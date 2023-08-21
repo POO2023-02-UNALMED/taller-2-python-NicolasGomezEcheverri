@@ -27,7 +27,7 @@ class Auto:
         return cntasientos
     
     def verificarIntegridad(self):
-        for asiento_i in self.asietnos:
+        for asiento_i in self.asientos:
             if type(asiento_i) == Asiento:
                 if asiento_i.registro != self.registro:
                     return "Las piezas no son originales"
